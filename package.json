@@ -1,0 +1,31 @@
+{
+  "name": "vidly-api-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Mathias Wakgari",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "config": "^3.3.8",
+    "dcrypt": "^0.0.2",
+    "express": "^4.18.2",
+    "express-async-errors": "^2.1.0",
+    "fawn": "^2.1.5",
+    "joi": "^13.1.0",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^8.1.1",
+    "lodash": "^4.17.4",
+    "mongoose": "^5.0.1",
+    "nodemon": "^2.0.20",
+    "winston": "^2.4.0",
+    "winston-mongodb": "^3.0.2"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
